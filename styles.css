@@ -28,6 +28,7 @@
 body
 {
     background-color: var(--clara);
+    width: 100vw;
     font-family: var(--fonte-textos);    
     font-weight: 400;
 }

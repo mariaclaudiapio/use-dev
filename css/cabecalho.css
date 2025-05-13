@@ -4,7 +4,7 @@
     grid-template-columns: 1fr auto 50% auto auto auto;
     gap: 2.5rem;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     padding: 2rem 12.5%;
     color: var(--escura);
 }
@@ -54,5 +54,48 @@
     right: 1rem;
     top: 50%;
     transform: translateY(-50%);
+}
+
+/* versao para tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px)
+{
+    .cabecalho
+    {
+        grid-template-areas: 
+        "logo sobre login perfil carrinho"
+        "input input input input input";
+        grid-template-columns: 1fr 2fr .5fr .5fr .5fr;
+    }
+
+    .cabecalho__logo
+    {
+        grid-area: logo;
+        justify-self: center;
+    }
+
+    .cabecalho__sobre
+    {
+        grid-area: sobre;
+    }
+
+    .cabecalho__item
+    {
+        grid-area: input;
+    }
+
+    .cabecalho__login
+    {
+        grid-area: login;
+    }
+
+    .cabecalho__perfil
+    {
+        grid-area: perfil;
+    }
+
+    .cabecalho__carrinho
+    {
+        grid-area: carrinho;
+    }
 }
 
