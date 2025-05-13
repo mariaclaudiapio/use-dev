@@ -1,0 +1,29 @@
+:root 
+{
+    /* cores */
+    --principal-cor-fonte: #5E6E89;
+    --alternativa-cor-fonte: #19325C;
+    --escura: #090129;
+    --clara: #ffffff;
+    --neon-primaria: #8FFF24;
+    --neon-secundaria: #FF55DF; 
+    --neon-botao: #780BF7;
+    --fonte-titulos: "Orbitron", sans-serif;
+    --fonte-textos: "Poppins", sans-serif;
+}
+
+/* reset */
+* 
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Gerais */
+body
+{
+    background-color: var(--clara);
+    font-family: var(--fonte-textos);
+}
