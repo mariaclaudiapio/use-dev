@@ -1,68 +1,40 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Importação de Fontes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <!-- Importação do CSS -->
-     <link rel="stylesheet" href="styles.css">
     <title>Use Dev</title>
 </head>
 <body>
-
-    <!-- Cabeçalho -->
     <header>
-        <nav>
-            <ul class="cabecalho">                
-                <li><img src="./img/logo.svg" alt="Logo do Use Dev." class="cabecalho__logo"></li>
-                <li><a href="#" class="cabecalho__sobre">Sobre nós</a></li>
-                <li class="cabecalho__item">
-                    <input type="search" placeholder="O que você procura?" class="cabecalho__item-input">
-                    <img src="./img/lupa.svg" alt="Ícone de lupa" class="cabecalho__item-lupa">
+        <nav class="cabecalho___navegacao">
+            <ul class="cabecalho___navegacao__lista">
+                <li>
+                    <h1 class="cabecalho___navegacao__lista_logo">
+                        <img src="./img/logo.svg" alt="Logo da Use Dev">
+                    </h1>
+                </li>                
+                <li class="cabecalho___navegacao__lista_item">
+                    <a href="#" class="cabecalho___navegacao__lista_item-link">Sobre nós</a>
                 </li>
-                <li><a href="#" class="cabecalho__login">Login</a></li>
-                <li><a href="#" class="cabecalho__perfil"><img src="./img/perfil.svg" alt="Perfil"></a></li>
-                <li><a href="#" class="cabecalho__carrinho"><img src="./img/carrinho.svg" alt="Carrinho"> </a></li>
+                <li class="cabecalho___navegacao__lista_item input">
+                    <input type="search" id="search" placeholder="O que você procura?" class="input">
+                </li>
+                <li class="cabecalho___navegacao__lista_item">
+                    <a href="#" class="cabecalho___navegacao__lista_item-link login">Login</a>
+                </li>
+                <li class="cabecalho___navegacao__lista_item">
+                    <a href="#" class="cabecalho___navegacao__lista_item-link perfil">
+                        <img src="./img/perfil.svg" alt="Perfil.">
+                    </a>
+                </li>
+                <li class="cabecalho___navegacao__lista_item">
+                    <a href="#" class="cabecalho___navegacao__lista_item-link carrinho">
+                        <img src="./img/carrinho.svg" alt="Carrinho de compras.">
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
-
-    <!-- Banner -->
-    <section class="banner">
-        <img src="./img/camiseta.png" alt="Pessoa vestindo uma camiseta da Use Dev" class="banner__imagem">
-        <div class="banner__texto">
-            <h2 class="banner__texto-titulo">Hora de abraçar <span>o seu lado geek!</span></h2>
-            <button class="banner__texto-botao">Ver as novidades!</button>
-        </div>
-    </section>
-
-    <!-- Lista de Categorias -->
-     <section class="categorias">
-        <h3 class="categorias__title">Categorias</h3>
-        <p class="categorias__texto">De roupas a gadgets tecnológicos temos tudo para atender suas paixões e hobbies com estilo e autenticidade.</p>
-        <ul class="categorias__lista">
-            <li class="categorias__lista-container">
-                <img src="./img/roupas.png" alt="Três camisas da Use Dev" class="categorias__lista-containerImagem">
-                <p class="categorias__lista-containerTexto">Roupas</p>
-            </li>
-            <li class="categorias__lista-container">
-                <img src="./img/decoracao.png" alt="Decoração em formato de hamburguer" class="categorias__lista-containerImagem">
-                <p class="categorias__lista-containerTexto">Decoração</p>
-            </li>
-            <li class="categorias__lista-container">
-                <img src="./img/caneca.png" alt="Caneca da Use Dev" class="categorias__lista-containerImagem">
-                <p class="categorias__lista-containerTexto">Canecas</p>
-            </li>
-            <li class="categorias__lista-container">
-                <img src="./img/acessorios.png" alt="Teclado Gamer" class="categorias__lista-containerImagem">
-                <p class="categorias__lista-containerTexto">Acessórios</p>
-            </li>
-
-        </ul>
-     </section>
-    
 </body>
 </html>
