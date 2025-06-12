@@ -1,0 +1,33 @@
+@import "./css/cabecalho.css";
+
+/* reset */
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none; 
+    list-style-type: none;    
+}
+
+:root
+{
+    --cor-da-fonte: #444444;
+    --input-background: #EFEFEF;
+    --site-background: #FFFFFF;
+    --cartoes-background: #090129;
+    --destaque: #FF55DF;
+    --rodape-destaque: #8FFF24;
+    --roxo-escuro: #430091;
+    --botoes-background: #780BF7;
+    --texto-letra: "Poppins", sans-serif;
+    --titulo-letra: "Orbitron", sans-serif;
+}
+
+body
+{
+    width: 100vw;
+    background-color: var(--site-background);
+    font-family: var(--texto-letra);
+    color: var(--texto-letra);
+}
+
