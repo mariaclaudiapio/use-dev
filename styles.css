@@ -1,5 +1,7 @@
 @import "./css/cabecalho.css";
 @import "./css/banner.css";
+@import "./css/categorias.css";
+@import "./css/promocoes.css";
 
 /* Reset */
 *
@@ -14,7 +16,7 @@
 /* Gerais */
 :root
 {
-    --cor-da-fonte: #444444;
+    --cor-da-fonte: #444444;    
     --input-background: #EFEFEF;
     --site-background: #FFFFFF;
     --cartoes-background: #090129;
