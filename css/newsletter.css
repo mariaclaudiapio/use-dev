@@ -1,0 +1,47 @@
+.newsletter
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--rodape-destaque);
+    margin-top: 3rem;    
+    padding: 2rem;
+    gap: 1rem;
+    color: var(--cartoes-background);
+    width: 100%;
+}
+
+.newsletter__titulo
+{
+    font-family: var(--titulo-letra);
+    font-size: 31px;
+    font-weight: 700;    
+}
+
+.newsletter__texto
+{
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.newsletter__container_input
+{
+    width: 40%;
+    height: 100%;
+    padding: 24px 20px;
+    margin-right: 1rem;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 2px solid var(--cartoes-background);
+    border-radius: 32px;   
+    font-size: 20px;
+    line-height: 24px;    
+    font-family: var(--texto-letra);
+}
+
+.newsletter__container_input::placeholder
+{
+    color: var(--cartoes-background);
+}
+
