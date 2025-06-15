@@ -3,6 +3,7 @@
 @import "./css/categorias.css";
 @import "./css/promocoes.css";
 @import "./css/newsletter.css";
+@import "./css/rodape.css";
 
 /* Reset */
 *
@@ -29,7 +30,7 @@
     --titulo-letra: "Orbitron", sans-serif;
 }
 
-body
+.container
 {
     width: 100%;
     background-color: var(--site-background);
