@@ -1,0 +1,29 @@
+/* reset */
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root
+{
+    --cor-clara: #FFFFFF;
+    --cor-clara-secundaria: #EFEFEF;
+    --cor-media: #444444;
+    --cor-destaque: #8FFF24;
+    --cor-destaque-secundaria: #FF55DF;
+    --cor-destaque-terciaria: #780BF7;
+    --cor-escura: #090129;     
+    --cor-escura-secundaria: #430091;
+    --cor-escura-terciaria: #0B254B;
+    --fonte: "Poppins", sans-serif;
+    --fonte-titulo: "Orbitron", sans-serif;    
+}
+
+.projeto
+{
+    background-color: var(--cor-clara);
+    font-family: var(--fonte);
+}
