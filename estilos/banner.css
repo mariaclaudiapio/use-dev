@@ -1,0 +1,36 @@
+.banner
+{
+    background-color: var(--background-secundario);
+    padding: 80px 12.5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-image: url("../imagens/grid.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 2rem;
+}
+
+.banner__container--titulo
+{
+    font-family: var(--fonte-titulo);
+    color: var(--cor-destaque-secundaria);
+    font-weight: 800;
+    font-size: 76px;
+    line-height: 5.75rem;
+    padding-bottom: 3rem;
+}
+
+.banner__container--titulo-destaque
+{
+    color: var(--cor-destaque);
+}
+
+.banner__container--link
+{
+    color: var(--background);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 2.25;
+}

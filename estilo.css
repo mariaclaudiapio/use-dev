@@ -1,4 +1,5 @@
 @import "./estilos/cabecalho.css";
+@import "./estilos/banner.css";
 
 /* Reset */
 *
@@ -12,15 +13,15 @@
 /* Variáveis */
 :root
 {
-    --cor-clara: #FFFFFF;
-    --cor-clara-secundaria: #EFEFEF;
+    --background: #FFFFFF;
+    --background-input: #EFEFEF;
     --cor-media: #444444;
     --cor-destaque: #8FFF24;
     --cor-destaque-secundaria: #FF55DF;
-    --cor-destaque-terciaria: #780BF7;
-    --cor-escura: #090129;     
-    --cor-escura-secundaria: #430091;
-    --cor-escura-terciaria: #0B254B;
+    --cor-botao: #780BF7;
+    --background-secundario: #090129;     
+    --cor-de-fundo-secundaria: #430091;
+    --cor-titulos: #0B254B;
     --fonte: "Poppins", sans-serif;
     --fonte-titulo: "Orbitron", sans-serif;    
 }
@@ -28,9 +29,17 @@
 /* Estilos gerais */
 .projeto
 {
-    background-color: var(--cor-clara);
+    background-color: var(--background);
     font-family: var(--fonte);
     box-sizing: border-box;
     line-height: 1.5rem;
+}
+
+.botao
+{
+    padding: 1rem 1.5rem;
+    background-color: var(--cor-botao);
+    border-radius: 2rem;
+    border: none;
 }
 
