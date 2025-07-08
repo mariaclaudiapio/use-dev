@@ -1,7 +1,7 @@
 .cabecalho
 {
-    padding: 2rem 12.5%;
-    width: 100vw;
+    padding: 2rem 8%;
+    max-width: 100vw;
     box-sizing: border-box;
 }
 
@@ -59,7 +59,7 @@
 }
 
 /* versão tablet */
-@media screen and (max-width: 768px)
+@media (max-width: 768px), (orientation: portrait)
 {
     .cabecalho____navegacao___lista
     {
