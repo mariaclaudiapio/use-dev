@@ -1,4 +1,6 @@
-/* reset */
+@import "./estilos/cabecalho.css";
+
+/* Reset */
 *
 {
     margin: 0;
@@ -7,6 +9,7 @@
     text-decoration: none;
 }
 
+/* Variáveis */
 :root
 {
     --cor-clara: #FFFFFF;
@@ -22,8 +25,12 @@
     --fonte-titulo: "Orbitron", sans-serif;    
 }
 
+/* Estilos gerais */
 .projeto
 {
     background-color: var(--cor-clara);
     font-family: var(--fonte);
+    box-sizing: border-box;
+    line-height: 1.5rem;
 }
+
