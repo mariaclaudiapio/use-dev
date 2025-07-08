@@ -9,12 +9,12 @@
     background-position: bottom;
     align-items: center;  
     gap: 2rem;
-    width: 100%;    
+    width: 100vw;    
 }
 
 .banner__imagem
 {
-    width: 100%;
+    width: 100vw;
     object-fit: cover;
 }
 
