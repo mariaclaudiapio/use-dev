@@ -36,12 +36,3 @@
     box-sizing: border-box;
 }
 
-.botao
-{
-    padding: 1rem 1.5rem;
-    background-color: var(--cor-botao);
-    border-radius: 2rem;
-    border: none;
-}
-
-
