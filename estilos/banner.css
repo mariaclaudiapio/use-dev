@@ -9,6 +9,13 @@
     background-position: bottom;
     align-items: center;
     gap: 2rem;
+    max-width: 100vw;
+    box-sizing: border-box;
+}
+
+.banner__imagem
+{
+    width: 100%;
 }
 
 .banner__container-titulo
@@ -36,8 +43,21 @@
     font-size: 24px;
     background-color: var(--cor-botao);
     border-radius: 32px;
-    border: none;
+    border: none;   
 }
 
 @media screen and (max-width: 1024px)
-{}
+{
+    .banner
+    {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 80px 38px;
+    }
+
+    .banner__container-titulo
+    {
+        font-size: 61px;
+        line-height: 73.2px;
+    }
+}
