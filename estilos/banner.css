@@ -31,6 +31,7 @@
 .banner__container-titulo span
 {
     color: var(--cor-destaque);
+    object-fit: contain;
 }
 
 .banner__container-botao
