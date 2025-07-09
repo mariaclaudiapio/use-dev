@@ -1,0 +1,43 @@
+.banner
+{
+    background-color: var(--background-secundario);
+    padding: 80px 12.5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-image: url("../imagens/grid.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    align-items: center;
+    gap: 2rem;
+}
+
+.banner__container-titulo
+{
+    font-family: var(--fonte-titulo);
+    color: var(--cor-destaque-secundaria);
+    font-weight: 800;
+    font-size: 76px;
+    line-height: 91.2px;
+    padding-bottom: 48px;
+}
+
+.banner__container-titulo span
+{
+    color: var(--cor-destaque);
+}
+
+.banner__container-botao
+{
+    padding: 16px 24px;
+    color: var(--background);
+    font-weight: 600;
+    font-family: var(--fonte);
+    line-height: 36px;
+    font-size: 24px;
+    background-color: var(--cor-botao);
+    border-radius: 32px;
+    border: none;
+}
+
+@media screen and (max-width: 1024px)
+{}
