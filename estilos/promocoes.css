@@ -65,5 +65,13 @@
     font-weight: 700;
     text-decoration: underline;
     color: var(--cor-botao);
+}
 
+/* versão mobile (tablet e smartphone) */
+@media screen and (max-width: 1024px)
+{
+    .promocoes__link
+    {
+        justify-self: center;
+    }
 }

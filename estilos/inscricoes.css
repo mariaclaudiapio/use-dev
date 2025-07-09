@@ -1,0 +1,138 @@
+.inscricoes
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 4rem 0 3rem 0;
+    background-color: var(--cor-destaque);
+    width: 100%; 
+    box-sizing: border-box; 
+    color: #19325C;
+}
+
+.inscricoes__titulo
+{
+    
+    font-family: var(--fonte-titulo);
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.inscricoes__texto
+{
+    padding: 2rem 0;
+    font-size: 20px;
+}
+
+.inscricoes__container
+{
+    gap: 2rem
+}
+
+.inscricoes__input
+{
+    border: 2px solid var(--background-secundario);
+    border-radius: 32px;
+    background-color: transparent;    
+    width: 30vw;
+    padding: 1rem 5rem 1rem 0;    
+    line-height: 120%;    
+}
+
+.inscricoes__input::placeholder
+{
+    padding-left: 2rem;
+    font-size: 20px;
+    font-family: var(--fonte);
+    color: var(--background-secundario);
+}
+
+.inscricoes__botao
+{
+    margin-left: 1rem;
+    padding: 1rem 2rem;
+    background-color: var(--cor-botao);
+    font-family: var(--fonte);
+    color: var(--background);
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 32px;
+    line-height: 120%;   
+    border: none;
+}
+
+/* versão tablet */
+@media screen and (max-width: 1024px)
+{
+    .inscricoes
+    {
+        text-align: center;
+        padding: 2em 3rem;
+    }
+    .inscricoes__container
+    {
+        display: flex;
+        flex-direction: column;        
+    }
+
+    .inscricoes__titulo
+    {
+        font-size: 25px;
+    }
+
+    .inscricoes__input
+    {
+        margin: 0 5rem;
+        width: auto;
+        object-fit: contain;
+    }
+
+    .inscricoes__input::placeholder
+    {
+        font-size: 16px;
+        text-align: center;
+        padding: auto;
+    }
+
+    .inscricoes__botao
+    {
+        width: 30%;
+        margin: 0 auto;
+    }
+}
+
+/* versão smartphone */
+@media screen and (max-width: 768px)
+{
+    .inscricoes__titulo
+    {
+        font-size: 16px;
+    }
+
+    .inscricoes__texto
+    {
+        font-size: 16px;
+        align-items: 120;
+    }
+
+    .inscricoes__container
+    {      
+        align-items: center;
+    }
+
+    .inscricoes__botao
+    {
+        width: auto;
+        text-align: center;
+    }
+
+    .inscricoes__input
+    {
+        width: 80%;
+    }
+
+    .inscricoes__input::placeholder
+    {
+        font-size: 13px;
+    }
+}

@@ -2,6 +2,7 @@
 @import "./estilos/banner.css";
 @import "./estilos/categorias.css";
 @import "./estilos/promocoes.css";
+@import "./estilos/inscricoes.css";
 
 /* Reset */
 *
@@ -34,7 +35,7 @@
     background-color: var(--background);
     font-family: var(--fonte);
     line-height: 1.5rem;
-    max-width: 100vw; 
+    max-width: 100%; 
     box-sizing: border-box;   
 }
 
