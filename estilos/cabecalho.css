@@ -111,34 +111,50 @@
 {
     .cabecalho
     {
-        padding: 2rem;
+        padding: 3rem;
+        max-width: 100%;
     }
 
     .cabecalho__nav_list
     {
-        display: grid;
-        grid-template-columns: 1fr 2fr 0.25fr 0.25fr;
-        gap: 1rem;
-        align-items: center;
-         grid-template-areas: 
-        "menu logo logo perfil carrinho"
-        "input input input input input";        
+        gap: 2rem;
+        grid-template-areas: 
+        "menu logo perfil carrinho"
+        "input input input input";
+        grid-template-columns: 1fr 2fr auto auto;        
     }
-
 
     .cabecalho__menu-phone
     {
         display: block;
+        grid-area: menu;   
+    }
+
+    .cabecalho__nav_list_item-input
+    {
+        grid-area: input;
     }
 
     .cabecalho__nav_list_link-sobre,
-    .cabecalho__nav_list_link-login,
-    .cabecalho__nav_list_link-carrinho
+    .cabecalho__nav_list_link-login   
     {
         display: none;
     }
 
+    .cabecalho__logo
+    {
+        grid-area: logo;
+    }
 
+    .cabecalho__nav_list_link-perfil
+    {
+        grid-area: perfil;
+    }
+
+    .cabecalho__nav_list_link-carrinho
+    {
+        grid-area: carrinho;
+    }
 
 }
 
