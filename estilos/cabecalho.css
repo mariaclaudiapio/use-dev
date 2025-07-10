@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+.cabecalho__menu-phone
+{
+    display: none
+}
+
 .cabecalho__nav_list
 {
     display: grid;
@@ -58,6 +63,7 @@
     pointer-events: none;
 }
 
+/* versão tablet */
 @media screen and (max-width: 1024px)
 {
     .cabecalho__nav_list
@@ -65,7 +71,7 @@
         grid-template-areas: 
         "logo sobre login perfil carrinho"
         "input input input input input";
-        grid-template-columns: 1fr 2fr 0.5fr 0.5fr 0.5fr;
+        grid-template-columns: 1fr 2fr 0.5fr 0.5fr 0.5fr;        
     }
 
     .cabecalho__logo
@@ -99,3 +105,40 @@
         grid-area: input;
     }
 }
+
+/* versão smartphone */
+@media screen and (max-width: 768px)
+{
+    .cabecalho
+    {
+        padding: 2rem;
+    }
+
+    .cabecalho__nav_list
+    {
+        display: grid;
+        grid-template-columns: 1fr 2fr 0.25fr 0.25fr;
+        gap: 1rem;
+        align-items: center;
+         grid-template-areas: 
+        "menu logo logo perfil carrinho"
+        "input input input input input";        
+    }
+
+
+    .cabecalho__menu-phone
+    {
+        display: block;
+    }
+
+    .cabecalho__nav_list_link-sobre,
+    .cabecalho__nav_list_link-login,
+    .cabecalho__nav_list_link-carrinho
+    {
+        display: none;
+    }
+
+
+
+}
+

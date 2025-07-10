@@ -81,3 +81,36 @@
     padding: 16px 0;
     text-align: center;
 }
+
+/* versão smartphone */
+@media screen and (max-width: 768px)
+{
+    .categorias
+    {
+        padding: 2rem;
+    }
+
+    .categorias__list
+    {
+        display: flex;
+        flex-direction: column;               
+    }
+
+    .categorias__titulo
+    {
+        font-size: 25px;
+        margin-bottom: 1rem;       
+    }
+
+    .categorias__texto
+    {
+        font-size: 16px;
+        line-height: 120%;
+        margin-top: 0;
+    }
+
+    .categorias__list_item_titulo
+    {
+        font-size: 25px;
+    }
+}

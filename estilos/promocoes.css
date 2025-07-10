@@ -67,11 +67,25 @@
     color: var(--cor-botao);
 }
 
-/* versão mobile (tablet e smartphone) */
+/* versão tablet */
 @media screen and (max-width: 1024px)
 {
+    .promocoes__titulo
+    {
+        text-align: center;
+    }
+    
     .promocoes__link
     {
         justify-self: center;
+    }
+}
+
+/* versão smartphone */
+@media screen and (max-width: 768px)
+{
+    .promocoes__titulo
+    {
+        font-size: 25px;
     }
 }
